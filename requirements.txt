@@ -1,0 +1,10 @@
+Flask==1.1.2
+numpy==1.19.5
+opencv-python-headless==4.5.1.48
+Jinja2==2.11.3
+MarkupSafe==2.0.1
+itsdangerous==1.1.0
+werkzeug==1.0.1
+google-cloud-storage==1.42.3
+requests==2.26.0
+firebase-admin
