@@ -1,3 +1,8 @@
+# main.py - Image Processing and Firebase interaction script
+# This script handles Firebase initialization and image processing logic.
+# Sensitive paths have been replaced with placeholders.
+# Ensure you replace 'YOUR_SERVICE_ACCOUNT_KEY_PATH' with the actual path to your service account key.
+
 import os
 from datetime import datetime
 import firebase_admin
@@ -20,7 +25,7 @@ DISTANCE_THRESHOLD = 47
 logging.basicConfig(level=logging.DEBUG)
 
 # Google Cloud Storage bucket name and template path
-BUCKET_NAME = 'amanda-bucket-1110-1'
+BUCKET_NAME = 'YOUR-BUCKET'
 TEMPLATE_PATH = 'template.jpg'
 LOCAL_TEMPLATE_PATH = '/tmp/template.jpg'
 
